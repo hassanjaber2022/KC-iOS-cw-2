@@ -13,7 +13,7 @@ struct prayer_times: View {
             Image("IMG_7941")
                 .resizable()
                 .ignoresSafeArea()
-            VStack {
+            VStack() {
                 HStack{
                     
                     Image(systemName: "cube.fill")
@@ -60,47 +60,79 @@ struct prayer_times: View {
                                 .foregroundColor(Color.white)
                             Spacer()
                             Image(systemName: "chevron.right")
+                        
                                 .foregroundColor(Color.white)
                             
                         }.padding()
+                    
                         Divider()
                         Spacer()
-                        Text("3:37 AM                                   الفجر")
+                        HStack{
+                            Text("3:37 AM")
+                            Spacer()
+                            Text("الفجر")
+                        }
                                             .font(.title)
                                             .foregroundColor(Color.white)
                                             .padding()
-                                        Text("5:04 AM                                 الشروق")
+                        HStack{
+                            Text("5:04 AM")
+                            Spacer()
+                            Text("الشروق")
+                        }
                                             .font(.title)
                                             .foregroundColor(Color.white)
                                             .padding()
-                                        Text("11:45 AM                                   الظهر")
+                        HStack{
+                                        Text("11:45 AM")
+                            Spacer()
+                            Text("الظهر")
+                        }
                                             .font(.title)
                                             .padding()
-                                        Text("3:21 PM                                     العصر")
+                        HStack{
+                            
+                        
+                                        Text("3:21 PM")
+                            Spacer()
+                            Text("العصر")
+                        }
                                             .font(.title)
                                             .foregroundColor(Color.white)
                                             .padding()
-                                        Text("6:25 AM                                  المغرب")
+                        HStack{
+                            
+                        
+                                        Text("6:25 PM")
+                            Spacer()
+                            Text("المغرب")
+                        }
                                             .font(.title)
                                             .foregroundColor(Color.white)
                                             .padding()
-                                            
-                                        Text("7:50 AM                                    العشاء")
+                        HStack{
+                                        Text("7:50 PM")
+                            Spacer()
+                            Text("العشاء")
+                        }
                             .font(.title)
                                             .foregroundColor(Color.white)
-                    }
-                }
+                    
+                
                 
 
-                }
+                
             
 
         }
     }
 }
-
+    }
+}
+}
 struct prayer_times_Previews: PreviewProvider {
     static var previews: some View {
         prayer_times()
     }
 }
+
