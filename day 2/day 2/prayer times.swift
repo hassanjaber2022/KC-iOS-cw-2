@@ -20,7 +20,7 @@ struct prayer_times: View {
                         .resizable()
                         .foregroundColor(Color.white)
                         .frame(width: 40.0, height: 40.0)
-                        
+                    
                     Spacer()
                     Text("العاصمه")
                         .font(.title)
@@ -31,7 +31,7 @@ struct prayer_times: View {
                         .foregroundColor(Color.white)
                         .frame(width: 40.0, height: 40)
                     
-                   
+                    
                     
                 }.padding()
                 Spacer()
@@ -60,11 +60,11 @@ struct prayer_times: View {
                                 .foregroundColor(Color.white)
                             Spacer()
                             Image(systemName: "chevron.right")
-                        
+                            
                                 .foregroundColor(Color.white)
                             
                         }.padding()
-                    
+                        
                         Divider()
                         Spacer()
                         HStack{
@@ -72,63 +72,63 @@ struct prayer_times: View {
                             Spacer()
                             Text("الفجر")
                         }
-                                            .font(.title)
-                                            .foregroundColor(Color.white)
-                                            .padding()
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        .padding()
                         HStack{
                             Text("5:04 AM")
                             Spacer()
                             Text("الشروق")
                         }
-                                            .font(.title)
-                                            .foregroundColor(Color.white)
-                                            .padding()
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        .padding()
                         HStack{
-                                        Text("11:45 AM")
+                            Text("11:45 AM")
                             Spacer()
                             Text("الظهر")
                         }
-                                            .font(.title)
-                                            .padding()
+                        .font(.title)
+                        .padding()
                         HStack{
                             
-                        
-                                        Text("3:21 PM")
+                            
+                            Text("3:21 PM")
                             Spacer()
                             Text("العصر")
                         }
-                                            .font(.title)
-                                            .foregroundColor(Color.white)
-                                            .padding()
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        .padding()
                         HStack{
                             
-                        
-                                        Text("6:25 PM")
+                            
+                            Text("6:25 PM")
                             Spacer()
                             Text("المغرب")
                         }
-                                            .font(.title)
-                                            .foregroundColor(Color.white)
-                                            .padding()
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        .padding()
                         HStack{
-                                        Text("7:50 PM")
+                            Text("7:50 PM")
                             Spacer()
                             Text("العشاء")
                         }
-                            .font(.title)
-                                            .foregroundColor(Color.white)
-                    
-                
-                
-
-                
-            
-
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    }
+                }
+            }
         }
     }
-}
-    }
-}
 }
 struct prayer_times_Previews: PreviewProvider {
     static var previews: some View {
